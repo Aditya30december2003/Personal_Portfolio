@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .underline-animation{
+        @apply relative 
+    }
+    .underline-animation::after{
+        @apply content-[''] left-0 w-[0%] top-[50.5px] h-[5px] absolute bg-purple-900 duration-200 rounded-xl
+    }
+
+    .underline-animation:hover::after{
+        @apply w-[100%]
+    }
+}
+
+html,body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    scroll-behavior: smooth;
+    /* background-color: #f2f4f5; */
+    background-color: black;
+}
