@@ -12,7 +12,7 @@ const Tab = () => {
   },[])
 
   return (
-    <div className='shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-[1rem] max-w-[1080px] mx-auto mt-20 flex-col flex justify-between sm:flex sm:flex-row gap-10 p-5 bg-white' data-aos="fade-up">
+    <div className='shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] rounded-[1rem] max-w-[1080px] mx-auto mt-32 flex-col flex justify-between sm:flex sm:flex-row gap-10 p-5 bg-white' data-aos="fade-up">
       <div className='left flex flex-col gap-2 md:flex-row mx-auto md:mx-0 sm:w-[50%] md:w-[25%] lg:w-[20%] justify-between'>
         <PiMedalBold size={55} className='bg-purple-500 p-2 rounded-[100%] text-white mx-auto md:mx-0'/>
         <div>

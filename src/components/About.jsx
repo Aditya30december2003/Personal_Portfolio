@@ -21,8 +21,9 @@ const About = () => {
 
   return (
     <>
-    <div id='about' className='mt-[5rem]'>
-    <div className='mt-4 py-8  max-w-[1190px] flex flex-col lg:flex-row'>
+    <div id='about' className='mt-[5rem] 2xl:max-w-[1600px] mx-auto   2xl:flex 2xl:justify-evenly xl:flex xl:justify-evenly'>
+    <div className='mt-4 py-8  max-w-[1190px] flex flex-col lg:flex-row lg:justify-between'>
+    {/* links */}
     <div className='icons  w-[100px]' data-aos="fade-up">
       <ul className='lg:flex lg:flex-col hidden gap-7 py-2 items-center w-full '>
        <a href="mailto:adityasmjain@gmail.com" target="_blank">
@@ -45,10 +46,10 @@ const About = () => {
        </a> 
       </ul>
     </div>
-
-    <div className='flex flex-col lg:flex-row '>
+    {/* image */}
+    <div className='flex flex-col lg:flex-row lg:justify-between'>
     <div className='left  w-full '>
-      <img className='w-96 mx-auto lg:h-[80vh] md:object-cover h-full rounded-[0.7rem]' data-aos="fade-up" src={Aditya} alt="" />
+      <img className='w-96 mx-auto lg:h-[80vh] 2xl:h-[43vh] md:object-cover h-full rounded-[0.7rem]' data-aos="fade-up" src={Aditya} alt="" />
     </div>
     <div className='mx-auto w-full text-center' data-aos="fade-up">
       <h1 className='text-[2.3rem] font-bold text-purple-500 text-center lg:text-left w-full'>About Me</h1>
