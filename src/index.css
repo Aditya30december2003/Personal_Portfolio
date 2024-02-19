@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities{
-    .underline-animation{
+.underline-animation{
         @apply relative 
     }
     .underline-animation::after{
