@@ -12,7 +12,6 @@ import Contact from './components/Contact'
 import Bottom from './components/Bottom'
 import ContactProject from './components/ContactProject'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

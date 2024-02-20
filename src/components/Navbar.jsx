@@ -6,19 +6,27 @@ import {BiHomeAlt2} from 'react-icons/bi'
 import {HiOutlineWrenchScrewdriver} from 'react-icons/hi2'
 import {TbDeviceDesktopCode} from 'react-icons/tb'
 import {AiOutlineClose} from 'react-icons/ai'
+import { GoSun } from "react-icons/go";
 import Aditya from '../assets/imgs/Aditya-pf.png'
 
 
 const Navbar = () => {
     const [nav,setNav]=useState(false)
     const [logo, setLogo]=useState(false)
+    const [theme , setTheme]=useState(false)
     const handleNav=()=>{
         setNav(!nav)
         setLogo(!logo)
     }
-    const bgColor=()=>{
-      document.body.style.backgroundColor='#2a2d33'
-    }
+    const handleTheme = () =>{
+      setTheme(!theme)
+      if(theme){
+        document.body.style.backgroundColor='black'
+      }
+      else{
+        document.body.style.backgroundColor='white'
+      }
+    } 
   return (
   <div id='navbar' className='navbar w-full  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]'>
   <div className='fixed flex justify-between bg-black/2 p-4    items-center align-middle  shadow-[0px_0px_10px_2px_#00000024] font-mono w-full bg-white z-10 top-0 left-0'>
@@ -33,16 +41,24 @@ const Navbar = () => {
         <a href="#project"><li className='cursor-pointer hover:text-purple-900  underline-animation' >Projects</li></a>
         <li className='cursor-pointer hover:text-purple-900  underline-animation'>Certificates</li>
         </ul>
-        <div className='mr-4 hidden md:block'>
-        <BsFillMoonStarsFill onClick={bgColor}  size={25} className='cursor-pointer'/>
+        <div onClick={handleTheme} className='mr-4 hidden md:block'>
+        {theme ? <><BsFillMoonStarsFill onClick='' size={25} className='cursor-pointer'/></> : <><GoSun  onClick='' size={25} className='cursor-pointer'/></>}
         </div>
         </div>
         
      
       {/* mobile nav */}
-      <div className="mobile-nav md:hidden ">
+      <div className='flex items-center md:hidden'>
+      <div onClick={handleTheme} className='mr-4 '>
+        {theme ? <><BsFillMoonStarsFill onClick='' size={25} className='cursor-pointer'/></> : <><GoSun  onClick='' size={25} className='cursor-pointer'/></>}
+        </div>
+        
+      <div className="mobile-nav">
       <CgMenuRightAlt onClick={handleNav} size={30}  className={logo?'hidden':'block cursor-pointer'} />
       </div>
+      </div>
+
+      
 
       {/* mobile-dropdown */}
 
