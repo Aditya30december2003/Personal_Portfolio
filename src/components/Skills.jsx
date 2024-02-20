@@ -47,8 +47,8 @@ const Skills = () => {
         </li>
 
         <li className='cursor-pointer '>
-          <img className='mt-2 mx-auto w-28 bg-purple-100 p-4 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://cdn.sanity.io/images/341tt5ml/production/2825d163301127c72b6121baebb5e570689596e5-480x480.png" alt="" />
-          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>Sass</p>
+          <img className='mt-2 mx-auto w-28 bg-purple-100 p-4 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://raw.githubusercontent.com/github/explore/b943d5d671b2c6bc956d601746139b1d724658bd/topics/appwrite/appwrite.png" alt="" />
+          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>Appwrite</p>
         </li>
 
         <li className='cursor-pointer '>
