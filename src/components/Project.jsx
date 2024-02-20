@@ -12,11 +12,17 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const Project = () => {
+
+  const [view , setView] = useState(false)
+
+  const ViewProjects = () =>{
+    setView(!view)
+  }
   useEffect(()=>{
     Aos.init({duration:1000});
   },[]) 
   return (
-    <div id='project' className='mt-[10rem] md:mt-[5rem] max-w-[1080px] mx-auto'>
+    <div id='project' className='mt-[10rem]  max-w-[1080px] mx-auto'>
 
     <div className="header  mx-auto  text-center">
     <GrProjects size={40}  className='mx-auto mt-4 text-purple-500/100' />
@@ -80,10 +86,74 @@ const Project = () => {
       
     </div>
 
-    <div className=''>
-    <a href="">  
-    <h1 className='font-bold text-[1.3rem] w-full mx-auto mt-[10rem] text-purple-500 text-center cursor-pointer'>View All</h1>
-    </a>
+
+    {/* projects */}
+
+    <div className=' text-white grid grid-cols-2 md:grid-cols-4 text-center gap-4 md:gap-2 mt-[10rem] font-bold'>
+     <a href="https://aditya30december2003.github.io/Travel_Website/" target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Travel Website</p>
+     </a>
+
+     <a href='https://todo-list-guit5ahp0-aditya30december2003.vercel.app/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Todo List</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Link_Tree/" target='_blank' className='bg-purple-500 p-2 cursor-pointer'>
+      <p >Linktree Clone</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Facemash/" target='_blank' className='bg-purple-500 p-2 cursor-pointer'>
+      <p>Face Mash</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Weather-App/" target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Weather App</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Tip-n-Split/" target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Tip-n-Split</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Dictionary/" target='_blank' className='bg-purple-500 p-2 cursor-pointer'>
+      <p >Dictionary</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/Currency-Converter/" target='_blank' className='bg-purple-500 p-2 cursor-pointer'>
+      <p>Currency Converter</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Country-Guide/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Country-Guide</p>
+     </a>
+
+     <a href="https://aditya30december2003.github.io/BMI-calculator/" target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>BMI-calculator</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Memory-Game/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Memory-Game</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Breakout-Game/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p href="">Breakout-Game</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Shooting-Practise/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Shooting-Practise</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Periodic-Table-Using-GSAP/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Periodic-Table-Using-GSAP</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Shoe-E-Commerce-Website/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Shoe-E-Commerce-Website</p>
+     </a>
+
+     <a href='https://aditya30december2003.github.io/Calculator-1/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
+      <p>Calculator</p>
+     </a>
+
     </div>
   </div>
   )
