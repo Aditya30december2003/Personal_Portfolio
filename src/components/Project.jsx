@@ -68,7 +68,7 @@ const Project = () => {
       </a>
 
 
-      <a href="https://aditya30december2003.github.io/Batflix/" target="_blank">
+      <a href="https://batflix-seven.vercel.app/" target="_blank">
       <div className='relative duration-700 hover:scale-110 cursor-pointer'>
         <img className='object-cover rounded-t-[1rem] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]' src={batflix} alt="" />
         <div className='absolute rounded-t-[1rem] top-0 left-0 w-full h-full bg-red-600/50  cursor-pointer'></div>
