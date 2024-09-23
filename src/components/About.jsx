@@ -56,7 +56,7 @@ const About = () => {
       <hr className='w-[9rem] mx-auto h-2 border-none bg-purple-500 lg:text-left lg:mx-4'  />
       <p className='my-6 text-purple-500/60 font-bold text-center lg:text-left mx-0'> I'm Aditya Jain, currently pursuing a Bachelor of Technology in Computer Science and Engineering at Manipal University Jaipur. I am 19years old as of October 2023 and studying in 3rd year.  <div className='font-bold text-[1.5rem] md:text-[1.7rem] lg:text-[2rem] text-purple-900'>I'm Fervent about the world of web development, with a particular focus on front-end development.</div> However, my ambitions extend far beyond just the front-end, as I aspire to become a full-stack web developer and venture into the exciting realm of web3 development. </p>
       <div className='w-full mx-auto md:text-left text-center md:flex flex-col'>
-      <a href="Aditya Jain_CV_Resume.pdf" download="Aditya Jain_CV" target='_blank'>
+      <a href="Aditya Jain_CV_Resume(Main).pdf" download="Aditya Jain_CV" target='_blank'>
       <button className='flex justify-between items-center mx-auto  text-white bg-purple-600 py-3 px-5 rounded-xl duration-150 w-full'>
        <p className='mx-auto'>Download CV</p>
       </button>
