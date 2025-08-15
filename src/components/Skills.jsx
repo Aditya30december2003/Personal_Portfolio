@@ -22,7 +22,7 @@ const Skills = () => {
       <h1 className='font-bold text-[2rem] w-full mx-auto mt-4 text-purple-500'>Skills & Technologies</h1>
       </div>
 
-      <div className='content' data-aos="fade-up"> 
+      <div className='content' data-aos="fade-up flex flex-row items-center"> 
       <h1></h1>
       <ul className='grid grid-cols-2 md:grid-cols-4 gap-10 p-12'>
 
@@ -65,7 +65,26 @@ const Skills = () => {
           <img className='mt-2 mx-auto w-28 bg-purple-100 p-4 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="" />
           <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>C++</p>
         </li>
-        
+
+        <li className='cursor-pointer '>
+          <img className='mt-2 mx-auto w-28 bg-purple-100 p-6 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" alt="" />
+          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>Nextjs</p>
+        </li>
+
+        <li className='cursor-pointer '>
+          <img className='mt-2 mx-auto w-28 bg-purple-100 p-6 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-5-1175140.png?f=webp" alt="" />
+          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>MongoDB</p>
+        </li>
+
+        <li className='cursor-pointer '>
+          <img className='mt-2 mx-auto w-28 bg-purple-100 p-6 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsiSqrfaDRgfPMfLrWAQGiVxSlwmB_XQnLxg&s" alt="" />
+          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>Prisma</p>
+        </li>
+
+        <li className='cursor-pointer '>
+          <img className='mt-2 mx-auto w-28 bg-purple-100 p-6 rounded-[100%] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] duration-700 hover:scale-110' src="https://www.ejable.com/wp-content/uploads/2022/04/Framer-Motion.webp" alt="" />
+          <p className='text-center mt-2 font-bold text-purple-500 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] z-99'>Framer</p>
+        </li>
        
       </ul>
       </div>

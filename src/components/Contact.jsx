@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div id='contact' className='mt-5   max-w-[1080px] mx-auto'>
       <div className='text-center'>
-      <p className='font-bold text-purple-500'>Contact Me</p>
+      <p className='font-bold text-purple-500 text-[2.5rem]'>Contact Me</p>
       <h1 className='text-white font-bold text-[2.5rem] w-full mx-auto'>Get in Touch</h1>
       </div>
       <div className="content grid grid-cols-1 lg:grid-cols-2">

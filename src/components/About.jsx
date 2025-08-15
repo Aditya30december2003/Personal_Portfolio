@@ -9,7 +9,7 @@ import {SiCodechef} from 'react-icons/si'
 import {BiLogoGmail} from 'react-icons/bi'
 import {ImFilesEmpty} from 'react-icons/im'
 
-import Aditya from '../assets/imgs/Aditya-final.png'
+import Aditya from '../assets/imgs/Aditya-final.jpg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -54,12 +54,17 @@ const About = () => {
     <div className='mx-auto w-full text-center' data-aos="fade-up">
       <h1 className='text-[2.3rem] font-bold text-purple-500 text-center lg:text-left w-full'>About Me</h1>
       <hr className='w-[9rem] mx-auto h-2 border-none bg-purple-500 lg:text-left lg:mx-4'  />
-      <p className='my-6 text-purple-500/60 font-bold text-center lg:text-left mx-0'> I'm Aditya Jain, currently pursuing a Bachelor of Technology in Computer Science and Engineering at Manipal University Jaipur. I am 19years old as of October 2023 and studying in 3rd year.  <div className='font-bold text-[1.5rem] md:text-[1.7rem] lg:text-[2rem] text-purple-900'>I'm Fervent about the world of web development, with a particular focus on front-end development.</div> However, my ambitions extend far beyond just the front-end, as I aspire to become a full-stack web developer and venture into the exciting realm of web3 development. </p>
+      <p className='my-6 text-purple-500/60 font-bold text-center lg:text-left mx-0 text-[1.1rem]'> 
+     I’m Aditya Jain, 21, B.Tech CSE (Class of 2025) from Manipal University Jaipur.
+I build fast, accessible, and clean front-end experiences with Next.js/React and Tailwind, focusing on component-driven UI, performance, and UX details.
+Beyond the front end, I’m growing into full-stack: Node.js/Express, MongoDB/Prisma, REST APIs, OAuth/JWT auth.
+I enjoy turning ideas into shipped features—dashboards, content platforms, and data-driven interfaces—with attention to testing and maintainable code.
+Recently, I’ve been exploring web3 fundamentals (wallet auth, smart-contract reads/writes, on-chain data UX) to expand my toolkit for modern web apps.
+      </p>
       <div className='w-full mx-auto md:text-left text-center md:flex flex-col'>
       <a href="Aditya Jain_CV_Resume(Main).pdf" download="Aditya Jain_CV" target='_blank'>
       <button className='flex justify-between items-center mx-auto  text-white bg-purple-600 py-3 px-5 rounded-xl duration-150 w-full'>
-       <p className='mx-auto'>Download CV</p>
-       <p>llohe</p>
+       <p className='mx-auto'>Download Resume</p>
       </button>
       </a>
       {/* <button className=' w-full flex justify-between items-center mx-auto my-4 lg:my-2 text-white bg-purple-600 py-3 px-7 rounded-xl duration-150'>

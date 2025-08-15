@@ -1,29 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Tab from './components/Tab'
-import Skills from './components/Skills'
-import About from './components/About'
-import Project from './components/Project'
-import Contact from './components/Contact'
 import Bottom from './components/Bottom'
-import ContactProject from './components/ContactProject'
+import PageLoadAnimation from './components/PageLoadAnimation'
+import { Route , Routes } from 'react-router-dom'
+import Home from './page/Home'
+import Blog from './page/Blog'
 function App() {
 
   return (
     <>
     <div className=''>
     <Navbar />
-    <Hero />
-    <Tab />
+    <Routes>
+    <Route path='/Personal_Portfolio/' element={<Home/>}/>
+    <Route path='/Personal_Portfolio/blog' element={<Blog/>}/>
+    {/* <Tab />
     <About />
     <Skills />
     <Project />
     <ContactProject/>
-    <Contact />
+    <Contact /> */}
+    </Routes>
     <Bottom />
     </div>
     </>

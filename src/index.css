@@ -1,25 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer utilities{
-.underline-animation{
-        @apply relative 
-    }
-    .underline-animation::after{
-        @apply content-[''] left-0 w-[0%] top-[50.5px] h-[5px] absolute bg-purple-900 duration-200 rounded-xl
-    }
 
-    .underline-animation:hover::after{
-        @apply w-[100%]
-    }
+@layer utilities {
+  .underline-animation {
+    @apply relative;
+  }
+  .underline-animation::after {
+    @apply content-[''] left-0 w-[0%] top-[60.5px] h-[7px] absolute bg-purple-400 duration-200 rounded-xl;
+  }
+  .underline-animation:hover::after {
+    @apply w-[100%];
+  }
 }
 
-html,body{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    scroll-behavior: smooth;
-    /* background-color: #f2f4f5; */
-    background-color: black;
+/* [data-theme="light"] {
+  --bg-color: #f4f2f2;
+  --text-color: #333333;
+  --heading-color: #444444;
+  --testimonial-bg-color: rgb(229, 228, 228);
 }
+
+[data-theme="dark"] {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --heading-color: #dddddd;
+  --about-bg-color: rgb(75, 75, 75);
+}
+
+html, body {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbg {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.about {
+  background-color: var(--about-bg-color);
+}
+
+.patti{
+  background-color: var(--heading-color);
+}
+
+.testimonials {
+  background-color: var(--testimonial-bg-color);
+}
+
+.heading, .navbar {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  stroke: #000;
+  stroke-width: 1;
+  fill: transparent;
+}
+
+.subcolor1 {
+  background: #D6B4FC;
+  color: white;
+}
+
+.onhover {
+  color: #D6B4FC;
+}
+
+.swiper-pagination-bullet {
+  background: white;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+.ArrowIcon {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  .SearchIcon {
+    font-size: 20px;
+  }
+} */
+
+
+
+
+
+
+
+

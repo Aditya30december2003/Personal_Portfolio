@@ -5,7 +5,7 @@ import travel from '/src/assets/imgs/travel.png'
 import food from '/src/assets/imgs/food.png'
 import batflix from '/src/assets/imgs/batflix.png'
 import disney from '/src/assets/imgs/disney.png'
-import LinkedIn from '/src/assets/imgs/LinkedIn-Clone.png'
+import LinkedIn from '/src/assets/imgs/LinkedIn-Clone.png' 
 import {BsFillArrowUpRightCircleFill} from 'react-icons/bs'
 
 import Aos from 'aos'
@@ -22,7 +22,7 @@ const Project = () => {
     Aos.init({duration:1000});
   },[]) 
   return (
-    <div id='project' className='mt-[10rem]  max-w-[1080px] mx-auto'>
+    <div id='project' className='mt-[0.3rem] md:mt-[3rem] lg:mt-[10rem]  max-w-[1080px] mx-auto'>
 
     <div className="header  mx-auto  text-center">
     <GrProjects size={40}  className='mx-auto mt-4 text-purple-500/100' />
@@ -89,7 +89,7 @@ const Project = () => {
 
     {/* projects */}
 
-    <div className=' text-white grid grid-cols-2 md:grid-cols-4 text-center gap-4 md:gap-2 mt-[10rem] font-bold'>
+    <div className=' text-white grid grid-cols-2 p-2 md:grid-cols-4 text-center gap-4 md:gap-2 mt-[10rem] font-bold'>
      <a href="https://aditya30december2003.github.io/Travel_Website/" target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
       <p>Travel Website</p>
      </a>
@@ -150,8 +150,8 @@ const Project = () => {
       <p>Shoe-E-Commerce-Website</p>
      </a>
 
-     <a href='https://aditya30december2003.github.io/Calculator-1/' target='_blank' className='bg-purple-500 p-2 cursor-pointer '>
-      <p>Calculator</p>
+     <a href='https://aditya30december2003.github.io/Calculator-1/' target='_blank' className='bg-purple-500  cursor-pointer '>
+      <p className=''>Calculator</p>
      </a>
 
     </div>
