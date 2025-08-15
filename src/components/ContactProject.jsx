@@ -13,7 +13,7 @@ const ContactProject = () => {
   return (
     <div className='bg-purple-600 my-20 flex'>
     <div className='w-full max-w-[1080px] mx-auto px-20 py-10' data-aos='fade-up'>
-      <h1 className='text-[2rem] font-bold pt-5 text-white text-center md:text-left'>Have a Project in Mind?</h1>
+      <h1 className='text-[2rem] font-bold pt-6 text-white text-center md:text-left'>Have a Project in Mind?</h1>
       <p className='text-white  w-full text-[1rem] py-4 font-bold text-center md:text-left'>I am passionate frontend web developer with a strong focus on creating visually appealing and highly functional websites. If you have a project in mind or need assistance with anything related to web development, you're in the right place.</p>
       <div className=' w-full text-center md:text-left flex gap-4'>
       <a href="mailto:adityasmjain@gmail.com" target="_blank">
