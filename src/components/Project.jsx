@@ -17,7 +17,7 @@ const Project = () => {
       image: '/src/assets/imgs/movie.png',
       overlay: 'bg-purple-600/40',
       desc:
-        'Social platform for movie reviews, ratings, blogs & lists with Google Auth. Built with Next.js, MongoDB, Tailwind.',
+        'Social app for cinephiles: sign in with Google, write long-form reviews, rate titles, and curate public/private lists. Includes comments, likes, user profiles, and search/filter with pagination. Built with Next.js + MongoDB + Tailwind, SSR/SEO-ready and fully responsive.',
     },
     {
       title: 'BlogBuster',
@@ -25,7 +25,7 @@ const Project = () => {
       image: '/src/assets/imgs/blog.png',
       overlay: 'bg-blue-600/30',
       desc:
-        'Next.js + Prisma + MongoDB blog platform with Google/GitHub OAuth, comments, and SEO-friendly pages.',
+        'Multi-author blogging platform with Google/GitHub OAuth, draft → publish workflow, threaded comments, and tags/categories. Next.js + Prisma + MongoDB (NextAuth) power SEO-friendly, server-rendered pages with clean slugs, Open Graph/meta, pagination, and a responsive reading experience.',
     },
     {
       title: 'ChessBot',
