@@ -64,7 +64,11 @@ Recently, I’ve been exploring web3 fundamentals (wallet auth, smart-contract r
       <div className='w-full mx-auto md:text-left text-center md:flex flex-col'>
       <a href="Aditya Jain_CV_Resume(Main).pdf" download="Aditya Jain_CV" target='_blank'>
       <button className='flex justify-between items-center mx-auto  text-white bg-purple-600 py-3 px-5 rounded-xl duration-150 w-full'>
+<<<<<<< HEAD
        <p className='mx-auto'>Download Resume</p>
+=======
+       <p className='mx-auto'>Download CV</p>
+>>>>>>> 3a8d6e58f5c6521edb6d2705667d37c1b03dc015
       </button>
       </a>
       {/* <button className=' w-full flex justify-between items-center mx-auto my-4 lg:my-2 text-white bg-purple-600 py-3 px-7 rounded-xl duration-150'>
