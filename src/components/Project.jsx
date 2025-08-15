@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { GrProjects } from 'react-icons/gr'
 import { BsFillArrowUpRightCircleFill } from 'react-icons/bs'
 import Aos from 'aos'
