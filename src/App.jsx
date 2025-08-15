@@ -1,7 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Bottom from './components/Bottom'
-import PageLoadAnimation from './components/PageLoadAnimation'
 import { Route , Routes } from 'react-router-dom'
 import Home from './page/Home'
 import Blog from './page/Blog'

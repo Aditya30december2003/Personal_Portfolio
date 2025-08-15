@@ -1,9 +1,8 @@
-import React from 'react'
-import  {useEffect, useState} from 'react'
+import  {useEffect} from 'react'
 import {GrSettingsOption} from 'react-icons/gr'
-import {AiOutlineHtml5} from 'react-icons/ai'
-import {BiLogoCss3 ,BiLogoTailwindCss , BiLogoReact , BiLogoSass} from 'react-icons/bi'
-import {DiJavascript} from 'react-icons/di'
+// import {AiOutlineHtml5} from 'react-icons/ai'
+// import {BiLogoCss3 ,BiLogoTailwindCss , BiLogoReact , BiLogoSass} from 'react-icons/bi'
+// import {DiJavascript} from 'react-icons/di'
 
 
 import Aos from 'aos'

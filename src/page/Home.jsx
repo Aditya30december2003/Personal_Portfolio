@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from '../components/Hero'
 import Tab from '../components/Tab'
 import Skills from '../components/Skills'
